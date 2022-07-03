@@ -1,0 +1,1791 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: deps.edn + shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :main
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+(com.fulcrologic.fulcro.application/current-state app.client/app)
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:51
+Use of undeclared Var app.client/app
+--------------------------------------------------------------------------------
+
+cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
+(com.fulcrologic.fulcro.application/current-state app.client/app)
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:51
+Use of undeclared Var app.client/app
+--------------------------------------------------------------------------------
+
+cljs꞉cljs.user꞉>  (com.fulcrologic.fulcro.application/current-state app.client/app1)
+{:fulcro.inspect.core/app-id "app.client/Root",
+ :tictactoe nil,
+ :fulcro.inspect.core/app-uuid #uuid "e5c5f74c-b2ed-4a0d-90c5-e59e37b5d809"}
+cljs꞉cljs.user꞉> 
+; Evaluating file: client.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+nil
+cljs꞉app.client꞉> 
+; Evaluating file: board.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+
+nil
+cljs꞉app.board꞉> 
+; Evaluating file: client.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+nil
+cljs꞉app.client꞉> 
+; Evaluating file: row.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+
+nil
+cljs꞉app.row꞉> 
+; Evaluating file: client.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+nil
+cljs꞉app.client꞉> 
+; Evaluating file: board.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+
+nil
+cljs꞉app.board꞉> 
+; Evaluating file: client.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+nil
+cljs꞉app.client꞉> 
+; Evaluating file: client.cljs
+nil
+
+nil
+
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+
+nil
+cljs꞉app.client꞉> 
+; Evaluating file: client.cljs
+:tictactoe
+
+nil
+
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+
+nil
+cljs꞉app.client꞉> 
+; Evaluating file: client.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+
+nil
+cljs꞉app.client꞉> 
+; Evaluating file: client.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+
+nil
+cljs꞉app.client꞉> 
+; Evaluating file: client.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+nil
+cljs꞉app.client꞉> 
+nil
+cljs꞉app.client꞉> 
+; Evaluating file: client.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+nil
+cljs꞉app.client꞉> 
+nil
+cljs꞉app.client꞉> 
+; Evaluating file: client.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+nil
+cljs꞉app.client꞉> 
+nil
+cljs꞉app.client꞉> 
+nil
+cljs꞉app.client꞉> 
+; Evaluating file: client.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+nil
+cljs꞉app.client꞉> 
+; Evaluating file: client.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+nil
+cljs꞉app.client꞉> 
+; Evaluating file: board.cljs
+nil
+
+nil
+
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+
+nil
+cljs꞉app.board꞉> 
+; Evaluating file: board.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+nil
+cljs꞉app.board꞉> 
+; Evaluating file: board.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+
+nil
+cljs꞉app.board꞉> 
+; Evaluating file: client.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+
+nil
+cljs꞉app.client꞉> 
+; Evaluating file: client.cljs
+; ------ REPL Error while processing ---------------------------------------------
+; (cljs.core/load-file "/home/pushkar/Documents/fulcroProject/src/main/app/client.cljs")
+------ REPL Error while processing ---------------------------------------------
+(ns app.client
+  (:require
+   [com.fulcrologic.fulcro.application :as app]
+   [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
+   [com.fulcrologic.fulcro.dom :as dom]
+   [app.board :as board :refer [Board ui-board]]
+   [app.row :as row :refer [Row ui-row]]))
+no source by id: [:shadow.build.classpath/resource "app/client.cljs"]
+{:id [:shadow.build.classpath/resource "app/client.cljs"]}
+ExceptionInfo: no source by id: [:shadow.build.classpath/resource "app/client.cljs"]
+	shadow.build.data/get-source-by-id (data.clj:175)
+	shadow.build.data/get-source-by-id (data.clj:172)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437/fn--15438 (compiler.clj:1228)
+	clojure.core/complement/fn--5686 (core.clj:1443)
+	clojure.core/filter/fn--5911 (core.clj:2821)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.ChunkedCons.chunkedNext (ChunkedCons.java:59)
+	clojure.core/chunk-next (core.clj:710)
+	clojure.core.protocols/fn--8176 (protocols.clj:137)
+	clojure.core.protocols/fn--8176 (protocols.clj:124)
+	clojure.core.protocols/fn--8136/G--8131--8145 (protocols.clj:19)
+	clojure.core.protocols/seq-reduce (protocols.clj:31)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437 (compiler.clj:1230)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442/fn--15443 (compiler.clj:1236)
+	clojure.core/map/fn--5884 (core.clj:2757)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.RT.seq (RT.java:535)
+	clojure.core/seq--5419 (core.clj:139)
+	clojure.core.protocols/seq-reduce (protocols.clj:24)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442 (compiler.clj:1237)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1234)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1223)
+	shadow.build.compiler/compile-all (compiler.clj:1481)
+	shadow.build.compiler/compile-all (compiler.clj:1333)
+	shadow.build.api/compile-sources (api.clj:261)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.build.api/compile-sources (api.clj:265)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.cljs.repl/repl-ns (repl.clj:333)
+	shadow.cljs.repl/repl-ns (repl.clj:313)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.repl/repl-load-file* (repl.clj:275)
+	shadow.cljs.repl/repl-load-file* (repl.clj:253)
+	shadow.cljs.repl/repl-load-file (repl.clj:311)
+	shadow.cljs.repl/repl-load-file (repl.clj:309)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+nil
+cljs꞉app.client꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (comp/get-query Board)
+no source by provide: app.client
+{:provide app.client}
+ExceptionInfo: no source by provide: app.client
+	shadow.build.data/get-source-id-by-provide (data.clj:192)
+	shadow.build.data/get-source-id-by-provide (data.clj:187)
+	shadow.build.data/get-source-by-provide (data.clj:195)
+	shadow.build.data/get-source-by-provide (data.clj:194)
+	shadow.cljs.repl/repl-compile/fn--16955/fn--16956 (repl.clj:440)
+	shadow.cljs.repl/repl-compile/fn--16955 (repl.clj:416)
+	shadow.cljs.repl/repl-compile (repl.clj:414)
+	shadow.cljs.repl/repl-compile (repl.clj:411)
+	shadow.cljs.repl/process-read-result (repl.clj:502)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+cljs꞉app.client꞉> 
+; Evaluating file: client.cljs
+; ------ REPL Error while processing ---------------------------------------------
+; (cljs.core/load-file "/home/pushkar/Documents/fulcroProject/src/main/app/client.cljs")
+------ REPL Error while processing ---------------------------------------------
+(ns app.client
+  (:require
+   [com.fulcrologic.fulcro.application :as app]
+   [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
+   [com.fulcrologic.fulcro.dom :as dom]
+   [app.board :as board :refer [Board ui-board]]
+   [app.row :as row :refer [Row ui-row]]))
+no source by id: [:shadow.build.classpath/resource "app/client.cljs"]
+{:id [:shadow.build.classpath/resource "app/client.cljs"]}
+ExceptionInfo: no source by id: [:shadow.build.classpath/resource "app/client.cljs"]
+	shadow.build.data/get-source-by-id (data.clj:175)
+	shadow.build.data/get-source-by-id (data.clj:172)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437/fn--15438 (compiler.clj:1228)
+	clojure.core/complement/fn--5686 (core.clj:1443)
+	clojure.core/filter/fn--5911 (core.clj:2821)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.ChunkedCons.chunkedNext (ChunkedCons.java:59)
+	clojure.core/chunk-next (core.clj:710)
+	clojure.core.protocols/fn--8176 (protocols.clj:137)
+	clojure.core.protocols/fn--8176 (protocols.clj:124)
+	clojure.core.protocols/fn--8136/G--8131--8145 (protocols.clj:19)
+	clojure.core.protocols/seq-reduce (protocols.clj:31)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437 (compiler.clj:1230)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442/fn--15443 (compiler.clj:1236)
+	clojure.core/map/fn--5884 (core.clj:2757)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.RT.seq (RT.java:535)
+	clojure.core/seq--5419 (core.clj:139)
+	clojure.core.protocols/seq-reduce (protocols.clj:24)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442 (compiler.clj:1237)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1234)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1223)
+	shadow.build.compiler/compile-all (compiler.clj:1481)
+	shadow.build.compiler/compile-all (compiler.clj:1333)
+	shadow.build.api/compile-sources (api.clj:261)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.build.api/compile-sources (api.clj:265)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.cljs.repl/repl-ns (repl.clj:333)
+	shadow.cljs.repl/repl-ns (repl.clj:313)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.repl/repl-load-file* (repl.clj:275)
+	shadow.cljs.repl/repl-load-file* (repl.clj:253)
+	shadow.cljs.repl/repl-load-file (repl.clj:311)
+	shadow.cljs.repl/repl-load-file (repl.clj:309)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+nil
+cljs꞉app.client꞉> 
+; Evaluating file: board.cljs
+; ------ REPL Error while processing ---------------------------------------------
+; (cljs.core/load-file "/home/pushkar/Documents/fulcroProject/src/main/app/board.cljs")
+------ REPL Error while processing ---------------------------------------------
+(ns app.board
+  (:require
+   [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
+   [com.fulcrologic.fulcro.dom :as dom]
+   [app.row :as row :refer [Row ui-row]]))
+no source by id: [:shadow.build.classpath/resource "app/client.cljs"]
+{:id [:shadow.build.classpath/resource "app/client.cljs"]}
+ExceptionInfo: no source by id: [:shadow.build.classpath/resource "app/client.cljs"]
+	shadow.build.data/get-source-by-id (data.clj:175)
+	shadow.build.data/get-source-by-id (data.clj:172)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437/fn--15438 (compiler.clj:1228)
+	clojure.core/complement/fn--5686 (core.clj:1443)
+	clojure.core/filter/fn--5911 (core.clj:2821)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.ChunkedCons.chunkedNext (ChunkedCons.java:59)
+	clojure.core/chunk-next (core.clj:710)
+	clojure.core.protocols/fn--8176 (protocols.clj:137)
+	clojure.core.protocols/fn--8176 (protocols.clj:124)
+	clojure.core.protocols/fn--8136/G--8131--8145 (protocols.clj:19)
+	clojure.core.protocols/seq-reduce (protocols.clj:31)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437 (compiler.clj:1230)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442/fn--15443 (compiler.clj:1236)
+	clojure.core/map/fn--5884 (core.clj:2757)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.RT.seq (RT.java:535)
+	clojure.core/seq--5419 (core.clj:139)
+	clojure.core.protocols/seq-reduce (protocols.clj:24)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442 (compiler.clj:1237)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1234)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1223)
+	shadow.build.compiler/compile-all (compiler.clj:1481)
+	shadow.build.compiler/compile-all (compiler.clj:1333)
+	shadow.build.api/compile-sources (api.clj:261)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.build.api/compile-sources (api.clj:265)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.cljs.repl/repl-ns (repl.clj:333)
+	shadow.cljs.repl/repl-ns (repl.clj:313)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.repl/repl-load-file* (repl.clj:275)
+	shadow.cljs.repl/repl-load-file* (repl.clj:253)
+	shadow.cljs.repl/repl-load-file (repl.clj:311)
+	shadow.cljs.repl/repl-load-file (repl.clj:309)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+nil
+cljs꞉app.board꞉> 
+; Evaluating file: board.cljs
+; ------ REPL Error while processing ---------------------------------------------
+; (cljs.core/load-file "/home/pushkar/Documents/fulcroProject/src/main/app/board.cljs")
+------ REPL Error while processing ---------------------------------------------
+(ns app.board
+  (:require
+   [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
+   [com.fulcrologic.fulcro.dom :as dom]
+   [app.row :as row :refer [Row ui-row]]))
+no source by id: [:shadow.build.classpath/resource "app/board.cljs"]
+{:id [:shadow.build.classpath/resource "app/board.cljs"]}
+ExceptionInfo: no source by id: [:shadow.build.classpath/resource "app/board.cljs"]
+	shadow.build.data/get-source-by-id (data.clj:175)
+	shadow.build.data/get-source-by-id (data.clj:172)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437/fn--15438 (compiler.clj:1228)
+	clojure.core/complement/fn--5686 (core.clj:1443)
+	clojure.core/filter/fn--5911 (core.clj:2821)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.ChunkedCons.chunkedNext (ChunkedCons.java:59)
+	clojure.core/chunk-next (core.clj:710)
+	clojure.core.protocols/fn--8176 (protocols.clj:137)
+	clojure.core.protocols/fn--8176 (protocols.clj:124)
+	clojure.core.protocols/fn--8136/G--8131--8145 (protocols.clj:19)
+	clojure.core.protocols/seq-reduce (protocols.clj:31)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437 (compiler.clj:1230)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442/fn--15443 (compiler.clj:1236)
+	clojure.core/map/fn--5884 (core.clj:2757)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.RT.seq (RT.java:535)
+	clojure.core/seq--5419 (core.clj:139)
+	clojure.core.protocols/seq-reduce (protocols.clj:24)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442 (compiler.clj:1237)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1234)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1223)
+	shadow.build.compiler/compile-all (compiler.clj:1481)
+	shadow.build.compiler/compile-all (compiler.clj:1333)
+	shadow.build.api/compile-sources (api.clj:261)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.build.api/compile-sources (api.clj:265)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.cljs.repl/repl-ns (repl.clj:333)
+	shadow.cljs.repl/repl-ns (repl.clj:313)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.repl/repl-load-file* (repl.clj:275)
+	shadow.cljs.repl/repl-load-file* (repl.clj:253)
+	shadow.cljs.repl/repl-load-file (repl.clj:311)
+	shadow.cljs.repl/repl-load-file (repl.clj:309)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+nil
+cljs꞉app.board꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (comp/get-query Board)
+no source by provide: app.board
+{:provide app.board}
+ExceptionInfo: no source by provide: app.board
+	shadow.build.data/get-source-id-by-provide (data.clj:192)
+	shadow.build.data/get-source-id-by-provide (data.clj:187)
+	shadow.build.data/get-source-by-provide (data.clj:195)
+	shadow.build.data/get-source-by-provide (data.clj:194)
+	shadow.cljs.repl/repl-compile/fn--16955/fn--16956 (repl.clj:440)
+	shadow.cljs.repl/repl-compile/fn--16955 (repl.clj:416)
+	shadow.cljs.repl/repl-compile (repl.clj:414)
+	shadow.cljs.repl/repl-compile (repl.clj:411)
+	shadow.cljs.repl/process-read-result (repl.clj:502)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+cljs꞉app.board꞉> 
+; Evaluating file: client.cljs
+; ------ REPL Error while processing ---------------------------------------------
+; (cljs.core/load-file "/home/pushkar/Documents/fulcroProject/src/main/app/client.cljs")
+------ REPL Error while processing ---------------------------------------------
+(ns app.client
+  (:require
+   [com.fulcrologic.fulcro.application :as app]
+   [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
+   [com.fulcrologic.fulcro.dom :as dom]
+   [app.board :as board :refer [Board ui-board]]
+   [app.row :as row :refer [Row ui-row]]))
+no source by id: [:shadow.build.classpath/resource "app/client.cljs"]
+{:id [:shadow.build.classpath/resource "app/client.cljs"]}
+ExceptionInfo: no source by id: [:shadow.build.classpath/resource "app/client.cljs"]
+	shadow.build.data/get-source-by-id (data.clj:175)
+	shadow.build.data/get-source-by-id (data.clj:172)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437/fn--15438 (compiler.clj:1228)
+	clojure.core/complement/fn--5686 (core.clj:1443)
+	clojure.core/filter/fn--5911 (core.clj:2821)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.ChunkedCons.chunkedNext (ChunkedCons.java:59)
+	clojure.core/chunk-next (core.clj:710)
+	clojure.core.protocols/fn--8176 (protocols.clj:137)
+	clojure.core.protocols/fn--8176 (protocols.clj:124)
+	clojure.core.protocols/fn--8136/G--8131--8145 (protocols.clj:19)
+	clojure.core.protocols/seq-reduce (protocols.clj:31)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437 (compiler.clj:1230)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442/fn--15443 (compiler.clj:1236)
+	clojure.core/map/fn--5884 (core.clj:2757)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.RT.seq (RT.java:535)
+	clojure.core/seq--5419 (core.clj:139)
+	clojure.core.protocols/seq-reduce (protocols.clj:24)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442 (compiler.clj:1237)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1234)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1223)
+	shadow.build.compiler/compile-all (compiler.clj:1481)
+	shadow.build.compiler/compile-all (compiler.clj:1333)
+	shadow.build.api/compile-sources (api.clj:261)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.build.api/compile-sources (api.clj:265)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.cljs.repl/repl-ns (repl.clj:333)
+	shadow.cljs.repl/repl-ns (repl.clj:313)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.repl/repl-load-file* (repl.clj:275)
+	shadow.cljs.repl/repl-load-file* (repl.clj:253)
+	shadow.cljs.repl/repl-load-file (repl.clj:311)
+	shadow.cljs.repl/repl-load-file (repl.clj:309)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+nil
+cljs꞉app.board꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (comp/get-query Board)
+no source by provide: app.board
+{:provide app.board}
+ExceptionInfo: no source by provide: app.board
+	shadow.build.data/get-source-id-by-provide (data.clj:192)
+	shadow.build.data/get-source-id-by-provide (data.clj:187)
+	shadow.build.data/get-source-by-provide (data.clj:195)
+	shadow.build.data/get-source-by-provide (data.clj:194)
+	shadow.cljs.repl/repl-compile/fn--16955/fn--16956 (repl.clj:440)
+	shadow.cljs.repl/repl-compile/fn--16955 (repl.clj:416)
+	shadow.cljs.repl/repl-compile (repl.clj:414)
+	shadow.cljs.repl/repl-compile (repl.clj:411)
+	shadow.cljs.repl/process-read-result (repl.clj:502)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+cljs꞉app.board꞉> 
+; Evaluating file: client.cljs
+; ------ REPL Error while processing ---------------------------------------------
+; (cljs.core/load-file "/home/pushkar/Documents/fulcroProject/src/main/app/client.cljs")
+------ REPL Error while processing ---------------------------------------------
+(ns app.client
+  (:require
+   [com.fulcrologic.fulcro.application :as app]
+   [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
+   [com.fulcrologic.fulcro.dom :as dom]
+   [app.board :as board :refer [Board ui-board]]
+   [app.row :as row :refer [Row ui-row]]))
+no source by id: [:shadow.build.classpath/resource "app/client.cljs"]
+{:id [:shadow.build.classpath/resource "app/client.cljs"]}
+ExceptionInfo: no source by id: [:shadow.build.classpath/resource "app/client.cljs"]
+	shadow.build.data/get-source-by-id (data.clj:175)
+	shadow.build.data/get-source-by-id (data.clj:172)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437/fn--15438 (compiler.clj:1228)
+	clojure.core/complement/fn--5686 (core.clj:1443)
+	clojure.core/filter/fn--5911 (core.clj:2821)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.ChunkedCons.chunkedNext (ChunkedCons.java:59)
+	clojure.core/chunk-next (core.clj:710)
+	clojure.core.protocols/fn--8176 (protocols.clj:137)
+	clojure.core.protocols/fn--8176 (protocols.clj:124)
+	clojure.core.protocols/fn--8136/G--8131--8145 (protocols.clj:19)
+	clojure.core.protocols/seq-reduce (protocols.clj:31)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437 (compiler.clj:1230)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442/fn--15443 (compiler.clj:1236)
+	clojure.core/map/fn--5884 (core.clj:2757)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.RT.seq (RT.java:535)
+	clojure.core/seq--5419 (core.clj:139)
+	clojure.core.protocols/seq-reduce (protocols.clj:24)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442 (compiler.clj:1237)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1234)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1223)
+	shadow.build.compiler/compile-all (compiler.clj:1481)
+	shadow.build.compiler/compile-all (compiler.clj:1333)
+	shadow.build.api/compile-sources (api.clj:261)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.build.api/compile-sources (api.clj:265)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.cljs.repl/repl-ns (repl.clj:333)
+	shadow.cljs.repl/repl-ns (repl.clj:313)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.repl/repl-load-file* (repl.clj:275)
+	shadow.cljs.repl/repl-load-file* (repl.clj:253)
+	shadow.cljs.repl/repl-load-file (repl.clj:311)
+	shadow.cljs.repl/repl-load-file (repl.clj:309)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+nil
+cljs꞉app.board꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (comp/get-query Board)
+no source by provide: app.board
+{:provide app.board}
+ExceptionInfo: no source by provide: app.board
+	shadow.build.data/get-source-id-by-provide (data.clj:192)
+	shadow.build.data/get-source-id-by-provide (data.clj:187)
+	shadow.build.data/get-source-by-provide (data.clj:195)
+	shadow.build.data/get-source-by-provide (data.clj:194)
+	shadow.cljs.repl/repl-compile/fn--16955/fn--16956 (repl.clj:440)
+	shadow.cljs.repl/repl-compile/fn--16955 (repl.clj:416)
+	shadow.cljs.repl/repl-compile (repl.clj:414)
+	shadow.cljs.repl/repl-compile (repl.clj:411)
+	shadow.cljs.repl/process-read-result (repl.clj:502)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+cljs꞉app.board꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (comp/get-query Row)
+no source by provide: app.board
+{:provide app.board}
+ExceptionInfo: no source by provide: app.board
+	shadow.build.data/get-source-id-by-provide (data.clj:192)
+	shadow.build.data/get-source-id-by-provide (data.clj:187)
+	shadow.build.data/get-source-by-provide (data.clj:195)
+	shadow.build.data/get-source-by-provide (data.clj:194)
+	shadow.cljs.repl/repl-compile/fn--16955/fn--16956 (repl.clj:440)
+	shadow.cljs.repl/repl-compile/fn--16955 (repl.clj:416)
+	shadow.cljs.repl/repl-compile (repl.clj:414)
+	shadow.cljs.repl/repl-compile (repl.clj:411)
+	shadow.cljs.repl/process-read-result (repl.clj:502)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+cljs꞉app.board꞉> 
+; Evaluating file: board.cljs
+; ------ REPL Error while processing ---------------------------------------------
+; (cljs.core/load-file "/home/pushkar/Documents/fulcroProject/src/main/app/board.cljs")
+------ REPL Error while processing ---------------------------------------------
+(ns app.board
+  (:require
+   [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
+   [com.fulcrologic.fulcro.dom :as dom]
+   [app.row :as row :refer [Row ui-row]]))
+no source by id: [:shadow.build.classpath/resource "app/board.cljs"]
+{:id [:shadow.build.classpath/resource "app/board.cljs"]}
+ExceptionInfo: no source by id: [:shadow.build.classpath/resource "app/board.cljs"]
+	shadow.build.data/get-source-by-id (data.clj:175)
+	shadow.build.data/get-source-by-id (data.clj:172)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437/fn--15438 (compiler.clj:1228)
+	clojure.core/complement/fn--5686 (core.clj:1443)
+	clojure.core/filter/fn--5911 (core.clj:2821)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.ChunkedCons.chunkedNext (ChunkedCons.java:59)
+	clojure.core/chunk-next (core.clj:710)
+	clojure.core.protocols/fn--8176 (protocols.clj:137)
+	clojure.core.protocols/fn--8176 (protocols.clj:124)
+	clojure.core.protocols/fn--8136/G--8131--8145 (protocols.clj:19)
+	clojure.core.protocols/seq-reduce (protocols.clj:31)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437 (compiler.clj:1230)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442/fn--15443 (compiler.clj:1236)
+	clojure.core/map/fn--5884 (core.clj:2757)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.RT.seq (RT.java:535)
+	clojure.core/seq--5419 (core.clj:139)
+	clojure.core.protocols/seq-reduce (protocols.clj:24)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442 (compiler.clj:1237)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1234)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1223)
+	shadow.build.compiler/compile-all (compiler.clj:1481)
+	shadow.build.compiler/compile-all (compiler.clj:1333)
+	shadow.build.api/compile-sources (api.clj:261)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.build.api/compile-sources (api.clj:265)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.cljs.repl/repl-ns (repl.clj:333)
+	shadow.cljs.repl/repl-ns (repl.clj:313)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.repl/repl-load-file* (repl.clj:275)
+	shadow.cljs.repl/repl-load-file* (repl.clj:253)
+	shadow.cljs.repl/repl-load-file (repl.clj:311)
+	shadow.cljs.repl/repl-load-file (repl.clj:309)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+nil
+cljs꞉app.board꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (comp/get-query Row)
+no source by provide: app.board
+{:provide app.board}
+ExceptionInfo: no source by provide: app.board
+	shadow.build.data/get-source-id-by-provide (data.clj:192)
+	shadow.build.data/get-source-id-by-provide (data.clj:187)
+	shadow.build.data/get-source-by-provide (data.clj:195)
+	shadow.build.data/get-source-by-provide (data.clj:194)
+	shadow.cljs.repl/repl-compile/fn--16955/fn--16956 (repl.clj:440)
+	shadow.cljs.repl/repl-compile/fn--16955 (repl.clj:416)
+	shadow.cljs.repl/repl-compile (repl.clj:414)
+	shadow.cljs.repl/repl-compile (repl.clj:411)
+	shadow.cljs.repl/process-read-result (repl.clj:502)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+cljs꞉app.board꞉> 
+; Evaluating file: row.cljs
+; ------ REPL Error while processing ---------------------------------------------
+; (cljs.core/load-file "/home/pushkar/Documents/fulcroProject/src/main/app/row.cljs")
+------ REPL Error while processing ---------------------------------------------
+(ns app.row
+  (:require
+   [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
+   [com.fulcrologic.fulcro.dom :as dom]
+   [app.cell :as cell :refer [Cell ui-cell]]))
+no source by id: [:shadow.build.classpath/resource "app/board.cljs"]
+{:id [:shadow.build.classpath/resource "app/board.cljs"]}
+ExceptionInfo: no source by id: [:shadow.build.classpath/resource "app/board.cljs"]
+	shadow.build.data/get-source-by-id (data.clj:175)
+	shadow.build.data/get-source-by-id (data.clj:172)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437/fn--15438 (compiler.clj:1228)
+	clojure.core/complement/fn--5686 (core.clj:1443)
+	clojure.core/filter/fn--5911 (core.clj:2821)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.ChunkedCons.chunkedNext (ChunkedCons.java:59)
+	clojure.core/chunk-next (core.clj:710)
+	clojure.core.protocols/fn--8176 (protocols.clj:137)
+	clojure.core.protocols/fn--8176 (protocols.clj:124)
+	clojure.core.protocols/fn--8136/G--8131--8145 (protocols.clj:19)
+	clojure.core.protocols/seq-reduce (protocols.clj:31)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437 (compiler.clj:1230)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442/fn--15443 (compiler.clj:1236)
+	clojure.core/map/fn--5884 (core.clj:2757)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.RT.seq (RT.java:535)
+	clojure.core/seq--5419 (core.clj:139)
+	clojure.core.protocols/seq-reduce (protocols.clj:24)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442 (compiler.clj:1237)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1234)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1223)
+	shadow.build.compiler/compile-all (compiler.clj:1481)
+	shadow.build.compiler/compile-all (compiler.clj:1333)
+	shadow.build.api/compile-sources (api.clj:261)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.build.api/compile-sources (api.clj:265)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.cljs.repl/repl-ns (repl.clj:333)
+	shadow.cljs.repl/repl-ns (repl.clj:313)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.repl/repl-load-file* (repl.clj:275)
+	shadow.cljs.repl/repl-load-file* (repl.clj:253)
+	shadow.cljs.repl/repl-load-file (repl.clj:311)
+	shadow.cljs.repl/repl-load-file (repl.clj:309)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+nil
+cljs꞉app.row꞉> 
+[:cell/id :cell/status]
+cljs꞉app.row꞉> 
+[:row/id #:row{:cells [:cell/id :cell/status]} :row/label]
+cljs꞉app.row꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:17
+ Use of undeclared Var app.row/Board
+--------------------------------------------------------------------------------
+
+cljs꞉app.row꞉> 
+; Evaluating file: row.cljs
+; ------ REPL Error while processing ---------------------------------------------
+; (cljs.core/load-file "/home/pushkar/Documents/fulcroProject/src/main/app/row.cljs")
+------ REPL Error while processing ---------------------------------------------
+(ns app.row
+  (:require
+   [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
+   [com.fulcrologic.fulcro.dom :as dom]
+   [app.cell :as cell :refer [Cell ui-cell]]))
+no source by id: [:shadow.build.classpath/resource "app/board.cljs"]
+{:id [:shadow.build.classpath/resource "app/board.cljs"]}
+ExceptionInfo: no source by id: [:shadow.build.classpath/resource "app/board.cljs"]
+	shadow.build.data/get-source-by-id (data.clj:175)
+	shadow.build.data/get-source-by-id (data.clj:172)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437/fn--15438 (compiler.clj:1228)
+	clojure.core/complement/fn--5686 (core.clj:1443)
+	clojure.core/filter/fn--5911 (core.clj:2821)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.ChunkedCons.chunkedNext (ChunkedCons.java:59)
+	clojure.core/chunk-next (core.clj:710)
+	clojure.core.protocols/fn--8176 (protocols.clj:137)
+	clojure.core.protocols/fn--8176 (protocols.clj:124)
+	clojure.core.protocols/fn--8136/G--8131--8145 (protocols.clj:19)
+	clojure.core.protocols/seq-reduce (protocols.clj:31)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437 (compiler.clj:1230)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442/fn--15443 (compiler.clj:1236)
+	clojure.core/map/fn--5884 (core.clj:2757)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.RT.seq (RT.java:535)
+	clojure.core/seq--5419 (core.clj:139)
+	clojure.core.protocols/seq-reduce (protocols.clj:24)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442 (compiler.clj:1237)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1234)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1223)
+	shadow.build.compiler/compile-all (compiler.clj:1481)
+	shadow.build.compiler/compile-all (compiler.clj:1333)
+	shadow.build.api/compile-sources (api.clj:261)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.build.api/compile-sources (api.clj:265)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.cljs.repl/repl-ns (repl.clj:333)
+	shadow.cljs.repl/repl-ns (repl.clj:313)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.repl/repl-load-file* (repl.clj:275)
+	shadow.cljs.repl/repl-load-file* (repl.clj:253)
+	shadow.cljs.repl/repl-load-file (repl.clj:311)
+	shadow.cljs.repl/repl-load-file (repl.clj:309)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+nil
+cljs꞉app.row꞉> 
+[:row/id #:row{:cells [:cell/id :cell/status]} :row/label]
+cljs꞉app.row꞉> 
+; Evaluating file: board.cljs
+; ------ REPL Error while processing ---------------------------------------------
+; (cljs.core/load-file "/home/pushkar/Documents/fulcroProject/src/main/app/board.cljs")
+------ REPL Error while processing ---------------------------------------------
+(ns app.board
+  (:require
+   [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
+   [com.fulcrologic.fulcro.dom :as dom]
+   [app.row :as row :refer [Row ui-row]]))
+no source by id: [:shadow.build.classpath/resource "app/board.cljs"]
+{:id [:shadow.build.classpath/resource "app/board.cljs"]}
+ExceptionInfo: no source by id: [:shadow.build.classpath/resource "app/board.cljs"]
+	shadow.build.data/get-source-by-id (data.clj:175)
+	shadow.build.data/get-source-by-id (data.clj:172)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437/fn--15438 (compiler.clj:1228)
+	clojure.core/complement/fn--5686 (core.clj:1443)
+	clojure.core/filter/fn--5911 (core.clj:2821)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.ChunkedCons.chunkedNext (ChunkedCons.java:59)
+	clojure.core/chunk-next (core.clj:710)
+	clojure.core.protocols/fn--8176 (protocols.clj:137)
+	clojure.core.protocols/fn--8176 (protocols.clj:124)
+	clojure.core.protocols/fn--8136/G--8131--8145 (protocols.clj:19)
+	clojure.core.protocols/seq-reduce (protocols.clj:31)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437 (compiler.clj:1230)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442/fn--15443 (compiler.clj:1236)
+	clojure.core/map/fn--5884 (core.clj:2757)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.RT.seq (RT.java:535)
+	clojure.core/seq--5419 (core.clj:139)
+	clojure.core.protocols/seq-reduce (protocols.clj:24)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442 (compiler.clj:1237)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1234)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1223)
+	shadow.build.compiler/compile-all (compiler.clj:1481)
+	shadow.build.compiler/compile-all (compiler.clj:1333)
+	shadow.build.api/compile-sources (api.clj:261)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.build.api/compile-sources (api.clj:265)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.cljs.repl/repl-ns (repl.clj:333)
+	shadow.cljs.repl/repl-ns (repl.clj:313)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.repl/repl-load-file* (repl.clj:275)
+	shadow.cljs.repl/repl-load-file* (repl.clj:253)
+	shadow.cljs.repl/repl-load-file (repl.clj:311)
+	shadow.cljs.repl/repl-load-file (repl.clj:309)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+nil
+cljs꞉app.row꞉> 
+[:row/id #:row{:cells [:cell/id :cell/status]} :row/label]
+cljs꞉app.row꞉> 
+; Evaluating file: row.cljs
+; ------ REPL Error while processing ---------------------------------------------
+; (cljs.core/load-file "/home/pushkar/Documents/fulcroProject/src/main/app/row.cljs")
+------ REPL Error while processing ---------------------------------------------
+(ns app.row
+  (:require
+   [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
+   [com.fulcrologic.fulcro.dom :as dom]
+   [app.cell :as cell :refer [Cell ui-cell]]))
+no source by id: [:shadow.build.classpath/resource "app/board.cljs"]
+{:id [:shadow.build.classpath/resource "app/board.cljs"]}
+ExceptionInfo: no source by id: [:shadow.build.classpath/resource "app/board.cljs"]
+	shadow.build.data/get-source-by-id (data.clj:175)
+	shadow.build.data/get-source-by-id (data.clj:172)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437/fn--15438 (compiler.clj:1228)
+	clojure.core/complement/fn--5686 (core.clj:1443)
+	clojure.core/filter/fn--5911 (core.clj:2821)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.ChunkedCons.chunkedNext (ChunkedCons.java:59)
+	clojure.core/chunk-next (core.clj:710)
+	clojure.core.protocols/fn--8176 (protocols.clj:137)
+	clojure.core.protocols/fn--8176 (protocols.clj:124)
+	clojure.core.protocols/fn--8136/G--8131--8145 (protocols.clj:19)
+	clojure.core.protocols/seq-reduce (protocols.clj:31)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437 (compiler.clj:1230)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442/fn--15443 (compiler.clj:1236)
+	clojure.core/map/fn--5884 (core.clj:2757)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.RT.seq (RT.java:535)
+	clojure.core/seq--5419 (core.clj:139)
+	clojure.core.protocols/seq-reduce (protocols.clj:24)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442 (compiler.clj:1237)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1234)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1223)
+	shadow.build.compiler/compile-all (compiler.clj:1481)
+	shadow.build.compiler/compile-all (compiler.clj:1333)
+	shadow.build.api/compile-sources (api.clj:261)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.build.api/compile-sources (api.clj:265)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.cljs.repl/repl-ns (repl.clj:333)
+	shadow.cljs.repl/repl-ns (repl.clj:313)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.repl/repl-load-file* (repl.clj:275)
+	shadow.cljs.repl/repl-load-file* (repl.clj:253)
+	shadow.cljs.repl/repl-load-file (repl.clj:311)
+	shadow.cljs.repl/repl-load-file (repl.clj:309)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+nil
+cljs꞉app.row꞉> 
+; Evaluating file: cell.cljs
+; ------ REPL Error while processing ---------------------------------------------
+; (cljs.core/load-file "/home/pushkar/Documents/fulcroProject/src/main/app/cell.cljs")
+------ REPL Error while processing ---------------------------------------------
+(ns app.cell
+  (:require
+   [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
+   [com.fulcrologic.fulcro.dom :as dom]))
+no source by id: [:shadow.build.classpath/resource "app/board.cljs"]
+{:id [:shadow.build.classpath/resource "app/board.cljs"]}
+ExceptionInfo: no source by id: [:shadow.build.classpath/resource "app/board.cljs"]
+	shadow.build.data/get-source-by-id (data.clj:175)
+	shadow.build.data/get-source-by-id (data.clj:172)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437/fn--15438 (compiler.clj:1228)
+	clojure.core/complement/fn--5686 (core.clj:1443)
+	clojure.core/filter/fn--5911 (core.clj:2821)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.ChunkedCons.chunkedNext (ChunkedCons.java:59)
+	clojure.core/chunk-next (core.clj:710)
+	clojure.core.protocols/fn--8176 (protocols.clj:137)
+	clojure.core.protocols/fn--8176 (protocols.clj:124)
+	clojure.core.protocols/fn--8136/G--8131--8145 (protocols.clj:19)
+	clojure.core.protocols/seq-reduce (protocols.clj:31)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437 (compiler.clj:1230)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442/fn--15443 (compiler.clj:1236)
+	clojure.core/map/fn--5884 (core.clj:2757)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.RT.seq (RT.java:535)
+	clojure.core/seq--5419 (core.clj:139)
+	clojure.core.protocols/seq-reduce (protocols.clj:24)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442 (compiler.clj:1237)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1234)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1223)
+	shadow.build.compiler/compile-all (compiler.clj:1481)
+	shadow.build.compiler/compile-all (compiler.clj:1333)
+	shadow.build.api/compile-sources (api.clj:261)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.build.api/compile-sources (api.clj:265)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.cljs.repl/repl-ns (repl.clj:333)
+	shadow.cljs.repl/repl-ns (repl.clj:313)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.repl/repl-load-file* (repl.clj:275)
+	shadow.cljs.repl/repl-load-file* (repl.clj:253)
+	shadow.cljs.repl/repl-load-file (repl.clj:311)
+	shadow.cljs.repl/repl-load-file (repl.clj:309)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+nil
+cljs꞉app.cell꞉> 
+; Evaluating file: board.cljs
+; ------ REPL Error while processing ---------------------------------------------
+; (cljs.core/load-file "/home/pushkar/Documents/fulcroProject/src/main/app/board.cljs")
+------ REPL Error while processing ---------------------------------------------
+(ns app.board
+  (:require
+   [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
+   [com.fulcrologic.fulcro.dom :as dom]
+   [app.row :as row :refer [Row ui-row]]))
+no source by id: [:shadow.build.classpath/resource "app/board.cljs"]
+{:id [:shadow.build.classpath/resource "app/board.cljs"]}
+ExceptionInfo: no source by id: [:shadow.build.classpath/resource "app/board.cljs"]
+	shadow.build.data/get-source-by-id (data.clj:175)
+	shadow.build.data/get-source-by-id (data.clj:172)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437/fn--15438 (compiler.clj:1228)
+	clojure.core/complement/fn--5686 (core.clj:1443)
+	clojure.core/filter/fn--5911 (core.clj:2821)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.ChunkedCons.chunkedNext (ChunkedCons.java:59)
+	clojure.core/chunk-next (core.clj:710)
+	clojure.core.protocols/fn--8176 (protocols.clj:137)
+	clojure.core.protocols/fn--8176 (protocols.clj:124)
+	clojure.core.protocols/fn--8136/G--8131--8145 (protocols.clj:19)
+	clojure.core.protocols/seq-reduce (protocols.clj:31)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437 (compiler.clj:1230)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442/fn--15443 (compiler.clj:1236)
+	clojure.core/map/fn--5884 (core.clj:2757)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.RT.seq (RT.java:535)
+	clojure.core/seq--5419 (core.clj:139)
+	clojure.core.protocols/seq-reduce (protocols.clj:24)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442 (compiler.clj:1237)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1234)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1223)
+	shadow.build.compiler/compile-all (compiler.clj:1481)
+	shadow.build.compiler/compile-all (compiler.clj:1333)
+	shadow.build.api/compile-sources (api.clj:261)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.build.api/compile-sources (api.clj:265)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.cljs.repl/repl-ns (repl.clj:333)
+	shadow.cljs.repl/repl-ns (repl.clj:313)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.repl/repl-load-file* (repl.clj:275)
+	shadow.cljs.repl/repl-load-file* (repl.clj:253)
+	shadow.cljs.repl/repl-load-file (repl.clj:311)
+	shadow.cljs.repl/repl-load-file (repl.clj:309)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+nil
+cljs꞉app.cell꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:17
+ Use of undeclared Var app.cell/Row
+--------------------------------------------------------------------------------
+
+cljs꞉app.cell꞉> 
+[:cell/id :cell/status]
+cljs꞉app.row꞉> 
+[:row/id #:row{:cells [:cell/id :cell/status]} :row/label]
+cljs꞉app.row꞉> 
+; Evaluating file: client.cljs
+; ------ REPL Error while processing ---------------------------------------------
+; (cljs.core/load-file "/home/pushkar/Documents/fulcroProject/src/main/app/client.cljs")
+------ REPL Error while processing ---------------------------------------------
+(ns app.client
+  (:require
+   [com.fulcrologic.fulcro.application :as app]
+   [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
+   [com.fulcrologic.fulcro.dom :as dom]
+   [app.board :as board :refer [Board ui-board]]
+   [app.row :as row :refer [Row ui-row]]))
+no source by id: [:shadow.build.classpath/resource "app/client.cljs"]
+{:id [:shadow.build.classpath/resource "app/client.cljs"]}
+ExceptionInfo: no source by id: [:shadow.build.classpath/resource "app/client.cljs"]
+	shadow.build.data/get-source-by-id (data.clj:175)
+	shadow.build.data/get-source-by-id (data.clj:172)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437/fn--15438 (compiler.clj:1228)
+	clojure.core/complement/fn--5686 (core.clj:1443)
+	clojure.core/filter/fn--5911 (core.clj:2821)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.ChunkedCons.chunkedNext (ChunkedCons.java:59)
+	clojure.core/chunk-next (core.clj:710)
+	clojure.core.protocols/fn--8176 (protocols.clj:137)
+	clojure.core.protocols/fn--8176 (protocols.clj:124)
+	clojure.core.protocols/fn--8136/G--8131--8145 (protocols.clj:19)
+	clojure.core.protocols/seq-reduce (protocols.clj:31)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437 (compiler.clj:1230)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442/fn--15443 (compiler.clj:1236)
+	clojure.core/map/fn--5884 (core.clj:2757)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.RT.seq (RT.java:535)
+	clojure.core/seq--5419 (core.clj:139)
+	clojure.core.protocols/seq-reduce (protocols.clj:24)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442 (compiler.clj:1237)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1234)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1223)
+	shadow.build.compiler/compile-all (compiler.clj:1481)
+	shadow.build.compiler/compile-all (compiler.clj:1333)
+	shadow.build.api/compile-sources (api.clj:261)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.build.api/compile-sources (api.clj:265)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.cljs.repl/repl-ns (repl.clj:333)
+	shadow.cljs.repl/repl-ns (repl.clj:313)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.repl/repl-load-file* (repl.clj:275)
+	shadow.cljs.repl/repl-load-file* (repl.clj:253)
+	shadow.cljs.repl/repl-load-file (repl.clj:311)
+	shadow.cljs.repl/repl-load-file (repl.clj:309)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+nil
+cljs꞉app.row꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:17
+ Use of undeclared Var app.row/Board
+--------------------------------------------------------------------------------
+
+cljs꞉app.row꞉> 
+; Evaluating file: client.cljs
+; ------ REPL Error while processing ---------------------------------------------
+; (cljs.core/load-file "/home/pushkar/Documents/fulcroProject/src/main/app/client.cljs")
+------ REPL Error while processing ---------------------------------------------
+(ns app.client
+  (:require
+   [com.fulcrologic.fulcro.application :as app]
+   [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
+   [com.fulcrologic.fulcro.dom :as dom]
+   [app.board :as board :refer [Board ui-board]]))
+no source by id: [:shadow.build.classpath/resource "app/client.cljs"]
+{:id [:shadow.build.classpath/resource "app/client.cljs"]}
+ExceptionInfo: no source by id: [:shadow.build.classpath/resource "app/client.cljs"]
+	shadow.build.data/get-source-by-id (data.clj:175)
+	shadow.build.data/get-source-by-id (data.clj:172)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437/fn--15438 (compiler.clj:1228)
+	clojure.core/complement/fn--5686 (core.clj:1443)
+	clojure.core/filter/fn--5911 (core.clj:2821)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.ChunkedCons.chunkedNext (ChunkedCons.java:59)
+	clojure.core/chunk-next (core.clj:710)
+	clojure.core.protocols/fn--8176 (protocols.clj:137)
+	clojure.core.protocols/fn--8176 (protocols.clj:124)
+	clojure.core.protocols/fn--8136/G--8131--8145 (protocols.clj:19)
+	clojure.core.protocols/seq-reduce (protocols.clj:31)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437 (compiler.clj:1230)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442/fn--15443 (compiler.clj:1236)
+	clojure.core/map/fn--5884 (core.clj:2757)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.RT.seq (RT.java:535)
+	clojure.core/seq--5419 (core.clj:139)
+	clojure.core.protocols/seq-reduce (protocols.clj:24)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442 (compiler.clj:1237)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1234)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1223)
+	shadow.build.compiler/compile-all (compiler.clj:1481)
+	shadow.build.compiler/compile-all (compiler.clj:1333)
+	shadow.build.api/compile-sources (api.clj:261)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.build.api/compile-sources (api.clj:265)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.cljs.repl/repl-ns (repl.clj:333)
+	shadow.cljs.repl/repl-ns (repl.clj:313)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.repl/repl-load-file* (repl.clj:275)
+	shadow.cljs.repl/repl-load-file* (repl.clj:253)
+	shadow.cljs.repl/repl-load-file (repl.clj:311)
+	shadow.cljs.repl/repl-load-file (repl.clj:309)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+nil
+cljs꞉app.row꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:17
+ Use of undeclared Var app.row/Board
+--------------------------------------------------------------------------------
+
+cljs꞉app.row꞉> 
+; Evaluating file: client.cljs
+; ------ REPL Error while processing ---------------------------------------------
+; (cljs.core/load-file "/home/pushkar/Documents/fulcroProject/src/main/app/client.cljs")
+------ REPL Error while processing ---------------------------------------------
+(ns app.client
+  (:require
+   [com.fulcrologic.fulcro.application :as app]
+   [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
+   [com.fulcrologic.fulcro.dom :as dom]
+   [app.board :as board :refer [Board ui-board]]))
+no source by id: [:shadow.build.classpath/resource "app/client.cljs"]
+{:id [:shadow.build.classpath/resource "app/client.cljs"]}
+ExceptionInfo: no source by id: [:shadow.build.classpath/resource "app/client.cljs"]
+	shadow.build.data/get-source-by-id (data.clj:175)
+	shadow.build.data/get-source-by-id (data.clj:172)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437/fn--15438 (compiler.clj:1228)
+	clojure.core/complement/fn--5686 (core.clj:1443)
+	clojure.core/filter/fn--5911 (core.clj:2821)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.ChunkedCons.chunkedNext (ChunkedCons.java:59)
+	clojure.core/chunk-next (core.clj:710)
+	clojure.core.protocols/fn--8176 (protocols.clj:137)
+	clojure.core.protocols/fn--8176 (protocols.clj:124)
+	clojure.core.protocols/fn--8136/G--8131--8145 (protocols.clj:19)
+	clojure.core.protocols/seq-reduce (protocols.clj:31)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/remove-fn--15437 (compiler.clj:1230)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442/fn--15443 (compiler.clj:1236)
+	clojure.core/map/fn--5884 (core.clj:2757)
+	clojure.lang.LazySeq.sval (LazySeq.java:42)
+	clojure.lang.LazySeq.seq (LazySeq.java:51)
+	clojure.lang.RT.seq (RT.java:535)
+	clojure.core/seq--5419 (core.clj:139)
+	clojure.core.protocols/seq-reduce (protocols.clj:24)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8168 (protocols.clj:75)
+	clojure.core.protocols/fn--8110/G--8105--8123 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6830)
+	clojure.core/into (core.clj:6897)
+	clojure.core/into (core.clj:6889)
+	shadow.build.compiler/remove-dead-js-deps/fn--15442 (compiler.clj:1237)
+	clojure.core/update (core.clj:6185)
+	clojure.core/update (core.clj:6177)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1234)
+	shadow.build.compiler/remove-dead-js-deps (compiler.clj:1223)
+	shadow.build.compiler/compile-all (compiler.clj:1481)
+	shadow.build.compiler/compile-all (compiler.clj:1333)
+	shadow.build.api/compile-sources (api.clj:261)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.build.api/compile-sources (api.clj:265)
+	shadow.build.api/compile-sources (api.clj:253)
+	shadow.cljs.repl/repl-ns (repl.clj:333)
+	shadow.cljs.repl/repl-ns (repl.clj:313)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.repl/repl-load-file* (repl.clj:275)
+	shadow.cljs.repl/repl-load-file* (repl.clj:253)
+	shadow.cljs.repl/repl-load-file (repl.clj:311)
+	shadow.cljs.repl/repl-load-file (repl.clj:309)
+	shadow.cljs.repl/process-read-result (repl.clj:498)
+	shadow.cljs.repl/process-read-result (repl.clj:478)
+	shadow.cljs.repl/process-input (repl.clj:641)
+	shadow.cljs.repl/process-input (repl.clj:619)
+	shadow.cljs.devtools.server.worker.impl/eval17530/fn--17533 (impl.clj:698)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171/fn--17179 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170/fn--17171 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--17170 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+nil
+cljs꞉app.row꞉> 
+[:board/id #:board{:rows [:row/id #:row{:cells [:cell/id :cell/status]}]}]
+cljs꞉app.client꞉> 
+[:cell/id :cell/status]
+cljs꞉app.row꞉> 
+[:row/id #:row{:cells [:cell/id :cell/status]}]
+cljs꞉app.board꞉> 
+[:board/id #:board{:rows [:row/id #:row{:cells [:cell/id :cell/status]}]}]
+cljs꞉app.client꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:10
+ Use of undeclared Var app.client/tictactoe
+--------------------------------------------------------------------------------
+
+cljs꞉app.client꞉> 
+; Evaluating file: client.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+nil
+cljs꞉app.client꞉> 
+; nREPL Connection was closed
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: deps.edn + shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :main
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating file: row.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+nil
+cljs꞉app.row꞉> 
+#:cell{:id 0, :status "empty"}
+cljs꞉app.row꞉> 
+; Evaluating file: board.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+nil
+cljs꞉app.board꞉> 
+#:row{:id 0, :cells [#:cell{:id 0, :status "empty"} #:cell{:id 1, :status "empty"} #:cell{:id 2, :status "empty"}]}
+cljs꞉app.board꞉> 
+; Evaluating file: client.cljs
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1031:1
+ abs already refers to: cljs.core/abs being replaced by: taoensso.encore/abs
+--------------------------------------------------------------------------------
+nil
+cljs꞉app.client꞉> 
+nil
+cljs꞉app.client꞉> 
+nil
+cljs꞉app.client꞉> 
+[:board/id #:board{:rows [:row/id #:row{:cells [:cell/id :cell/status]}]}]
+cljs꞉app.client꞉> 
+nil
+cljs꞉app.client꞉> 
+#:row{:id 0, :cells [#:cell{:id 0, :status "empty"} #:cell{:id 1, :status "empty"} #:cell{:id 2, :status "empty"}]}
+cljs꞉app.board꞉> 
+nil
+cljs꞉app.client꞉> 

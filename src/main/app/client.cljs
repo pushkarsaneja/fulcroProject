@@ -2,12 +2,22 @@
   (:require
    [com.fulcrologic.fulcro.application :as app]
    [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
-   [com.fulcrologic.fulcro.dom :as dom]))
+   [com.fulcrologic.fulcro.dom :as dom]
+   [app.board :as board :refer [Board ui-board]]))
 
 (defonce app1 (app/fulcro-app))
 
-(defsc Root [this props]
-  (dom/div "TODO"))
+
+#_(comp/get-query Board)
+#_(comp/get-initial-state Board {:id 0})
+
+(defsc Root [this {:keys [tictactoe] :as props}]
+  {:query [{:tictactoe (comp/get-query Board)}]
+   :initial-state (fn [params] {:tictactoe (comp/get-initial-state Board {:id :tictactoe})})}
+
+  (println tictactoe)
+  (dom/div (ui-board tictactoe)))
+
 
 (defn ^:export init
   "Shadow-cljs sets this up to be our entry-point function. See shadow-cljs.edn `:init-fn` in the modules of the main build."
